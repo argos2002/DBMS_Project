@@ -4,8 +4,6 @@ Created by:
 Rohitangshu Bose(08)
 Sankalp Singh(05)
 
-FIRST Download
-
 1.XAMPP
 2. Download the zip file/ download winrar
 3. Extract the file and copy "DBMS_Project-main" folder
@@ -25,3 +23,6 @@ password: 123456
 User
 employee id: 1
 password: password1234
+
+**GOOGLE DRIVE Link**
+https://drive.google.com/drive/folders/1mn5ZPHMspHmABAx7oLJx5K8P_FD3Zgqj?usp=sharing
