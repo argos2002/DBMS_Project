@@ -12,7 +12,7 @@ FIRST Download
 4.Paste inside root directory/ where you install xammp local disk C: drive D: drive E: paste: (for xampp/htdocs, 
 5. Open PHPMyAdmin (http://localhost/phpmyadmin)
 6. Create a database with name ems
-7. Import ems.sql file(given inside the zip package in SQL file folder)
+7. Import ems.sql file(given inside the zip package in ems file folder)
 8.Run the script http://localhost/DBMS_Project-main
 
 
