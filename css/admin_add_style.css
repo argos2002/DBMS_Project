@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.background {
+    background: rgba(77, 15, 15, 0.6) url("../img/e-min.jpg");
+    background-size: cover;
+    background-blend-mode: darken;
+
+}
+
+.navbar{
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top:0;
+}
+.nav-list{
+
+    width:50%;
+    display: flex;
+    align-items: center;
+}
+.nav-list li{
+    list-style: none;
+    padding:20px 20px;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-list li a:hover{
+    text-decoration: none;
+    color: grey;
+}
+.rightNav a{
+    text-decoration: none;
+    color: white;
+}
+
+.rightNav a:hover{
+    text-decoration: none;
+    color: grey;
+}
+
+.rightNav{
+    padding: 0 20px;
+    width:50%;
+    text-align: right;
+}
+.firstSection{
+    padding-top: 1%;
+    height: 100h;
+}
+.container{   
+    max-width: 70%;
+    margin: auto;
+    padding: 35px;
+    color: white;
+}
+.container h1{
+    text-align: center;
+}
+input,textarea{
+    font-size: 16px;
+    width: 80%;
+    margin: 10px auto;
+    padding: 8px;
+    border: 2px solid black;
+    border-radius: 7px;
+    outline: none;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    color: white;
+    background: none;
+    padding: 8px 12px;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 14px;
+    cursor: pointer
+}
+
+.submitMsg{
+    font-size: 30px;
+    color: white;
+}
+.edit{
+    background: none;
+    color: white;
+}
+.blank{
+    max-height:100%;
+}
+.firstSaection{
+    padding-top: 1%;
+    height: 100vh;
+}

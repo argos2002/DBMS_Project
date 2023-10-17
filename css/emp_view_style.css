@@ -1,0 +1,104 @@
+*{
+    margin:0;
+    padding:0;
+}
+.background{
+    background: rgba(77, 15, 15, 0.6) url("../img/e-min.jpg");
+    background-size: cover;
+    background-blend-mode: darken;
+    
+}
+.navbar{
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top:0;
+}
+.nav-list{
+
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.nav-list li{
+    list-style: none;
+    padding:20px 20px;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding-right: 5px;
+}
+
+.nav-list li a:hover{
+    text-decoration: none;
+    color: blue;
+}
+
+.firstSection{
+    padding-top: 1%;
+    height: 100vh;
+}
+.fhalf{
+    padding-top: 3px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: auto;
+    max-width:50%;
+    height: 70%;
+}
+.text-big{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.text-small{
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: black;
+}
+.text-name{
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: white;
+}
+.login-box{   
+    border: 2px solid white;
+ 
+    border-radius: 20px;
+    max-width: 60%;
+    margin: 2% auto;
+    padding: 15px;
+
+}
+label{
+    font-size: 15px;
+    width: 90%;
+    margin: 10px auto;
+    padding: 9px;
+    border: 0.1px solid white;
+    border-radius: 7px;
+    border-style: dashed;
+    outline: none;
+    background-color: white;
+
+}
+.login-box .text-small{
+    margin-top: 1px;
+    display: flex;
+    justify-content:left;
+    align-items:left;
+    font-size: 20px;
+    text-align: left;
+}

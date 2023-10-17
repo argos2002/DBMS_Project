@@ -1,0 +1,132 @@
+*{
+    margin:0;
+    padding:0;
+}
+.background{
+    background: rgba(77, 15, 15, 0.6) url("../img/e-min.jpg");
+    background-size: cover;
+    background-blend-mode: darken;
+
+}
+.navbar{
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top:0;
+}
+
+.logo{
+    padding-top:40px;
+    padding-bottom: 5px;
+    max-width: 50%;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    margin: auto;
+}
+
+.logo img{
+    
+    width:30%;
+    border: 3px solid white;
+    border-radius: 100px;;
+}
+.nav-list{
+
+    width:50%;
+    display: flex;
+    align-items: center;
+}
+.nav-list li{
+    list-style: none;
+    padding:20px 20px;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-list li a:hover{
+    text-decoration: none;
+    color: grey;
+}
+
+.rightNav{
+    padding: 0 20px;
+    width:50%;
+    text-align: right;
+}
+.rightNav a{
+    text-decoration: none;
+    color: white;
+}
+
+.rightNav a:hover{
+    text-decoration: none;
+    color: grey;
+}
+.text-big{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    
+}
+.text-small{
+    margin-top: 3px;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+.firstSection{
+    padding-top: 1%;
+    height: 100vh;
+}
+.fhalf{
+    padding-top: 1%;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: auto;
+    max-width:50%;
+}
+table,th,td,tr{
+    max-width: 100%;
+    margin:4% 17%;
+    
+    width: fit-content;
+    color: black;
+    text-align: left;
+    border-radius: 1.5px  ;
+}
+th {
+    background-color: gray;
+}
+td {
+    background-color: white;
+}
+td:hover {background-color: rgb(207, 202, 202);}
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+.edit{
+    background-color: green;
+    color: white;
+    border-radius: 1px;
+    outline: none;
+    width: 50px;
+    height: 25px;
+    cursor: pointer;
+}
+.delete{
+    background-color: red;
+    color: white;
+    border-radius: 1px;
+    outline: none;
+    width: 50px;
+    height: 25px;
+    cursor: pointer;
+}
